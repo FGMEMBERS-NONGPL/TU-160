@@ -1,0 +1,11 @@
+<PropertyList>
+  <path>TU-160.ac</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>000</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m>0.35</x-m><!-- right/left -->
+    <y-m>-28.0</y-m><!-- up/down -->
+    <z-m>-6.5</z-m><!-- aft/fore -->
+  </offsets>
+</PropertyList>

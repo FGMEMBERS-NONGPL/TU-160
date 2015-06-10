@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+ <sim>
+ 
+<description>TU-160</description>
+ <status>early-production</status>
+   <author>Mitchell</author>
+    
+<flight-model>jsb</flight-model>
+  <aero>TU-160</aero>
+
+<model><path>Aircraft/TU-160/Models/TU-160.xml</path></model>
+
+ <virtual-cockpit archive="y">true</virtual-cockpit>
+  <allow-toggle-cockpit archive="y">false</allow-toggle-cockpit>
+
+<sound>
+      <audible>true</audible>
+      <path>Aircraft/TU-160/Sounds/TU-160-sound.xml</path>
+    </sound>
+  
+  <panel>
+    <visibility archive="y">false</visibility>
+  </panel>
+
+  <view n="0">
+   <internal archive="y">true</internal>
+   <config>
+    <pitch-offset-deg>-3.5</pitch-offset-deg>
+    <x-offset-m archive="y">-1.9</x-offset-m><!-- right/left -->
+    <y-offset-m archive="y">-0.5</y-offset-m><!-- up/down -->
+    <z-offset-m archive="y">3.7</z-offset-m><!-- aft/fore -->
+   </config>
+  </view>
+  
+  <chase-distance-m>-60</chase-distance-m>
+   
+  
+   
+   </sim> 
+  
+
+<engines>
+  <engine n="0">
+   <running>true</running>
+  </engine>
+  <engine n="1">
+   <running>true</running>
+  </engine>
+   <engine n="2">
+   <running>true</running>
+  </engine>
+  <engine n="3">
+   <running>true</running>
+  </engine>
+ </engines>
+ 
+ 
+</PropertyList>
